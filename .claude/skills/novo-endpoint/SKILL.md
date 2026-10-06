@@ -1,8 +1,13 @@
 ---
 name: novo-endpoint
-description: Adiciona um endpoint à Tarefas API seguindo as convenções do projeto (rota em TarefaEndpoints.cs, teste em tests/). Use quando pedirem um novo endpoint, rota ou recurso HTTP.
+description: >-
+  Adiciona um endpoint à Tarefas API seguindo as convenções do
+  projeto (rota em TarefaEndpoints.cs, teste em tests/). Use
+  quando pedirem um novo endpoint, rota ou recurso HTTP.
 argument-hint: "[verbo] [rota] [descrição]"
-allowed-tools: Bash(dotnet build *) Bash(dotnet test *)
+allowed-tools:
+  - Bash(dotnet build *)
+  - Bash(dotnet test *)
 ---
 
 # Novo endpoint

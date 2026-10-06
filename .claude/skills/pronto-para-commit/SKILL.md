@@ -1,8 +1,14 @@
 ---
 name: pronto-para-commit
-description: Confere se as mudanças atuais estão prontas para commit e sugere a mensagem.
+description: >-
+  Confere se as mudanças atuais estão prontas para commit e
+  sugere a mensagem.
 disable-model-invocation: true
-allowed-tools: Bash(dotnet build *) Bash(dotnet test *) Bash(git diff *) Bash(git status *)
+allowed-tools:
+  - Bash(dotnet build *)
+  - Bash(dotnet test *)
+  - Bash(git diff *)
+  - Bash(git status *)
 ---
 
 # Pronto para commit?
